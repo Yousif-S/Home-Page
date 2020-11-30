@@ -1,0 +1,80 @@
+    .img-fluid{
+     width: 2600px;
+     height: 250px;
+     
+    }
+    body{
+         background:  url(https://i.pinimg.com/originals/ec/80/d3/ec80d334bf8782c67d446e554cb138c6.jpg);
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         margin: center;
+          background-size: cover;
+    }
+    .div{
+         text-align: center;
+         
+                display: grid;
+                grid-gap: 15px;
+                grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                padding-top: 500px;
+                margin-left: 0px;
+                margin-top: 1000px;
+                margin-right: 0px;
+                background-color: gray;
+    }
+    .h5{
+        font-size: 100;
+        margin-top: 40px;
+    }
+    .divFooter{
+        
+      display: grid;
+      font-family:  fantasy;
+      font-size: 25px;
+      color: whitesmoke;
+                grid-gap: 15px;
+                grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+                padding-top: 10px;
+                margin-left: 0px;
+              
+                margin-right: 0px;
+                margin-top: 700px;
+                background-image: url(https://i.ibb.co/Lx8w1CS/unnamed.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+
+    }
+    
+    .light{
+        background-color: wheat;
+    }
+    
+    .navbar{
+        background-image: url(https://i.ibb.co/Lx8w1CS/unnamed.jpg);
+               background-repeat: no-repeat;
+               background-size: cover;
+               margin: 0 auto;
+    }
+    
+    .navbar-nav{
+        font-size: 20px;
+       font-weight: bold;
+        margin: 0 auto;
+    }
+    
+    
+    .nav-link{
+         margin-left: 50px;
+        
+    }
+    .carousel-inner{
+        
+    
+        margin-top: 50px;
+    }
+    
+    .line{
+        margin-top: 1px;
+        margin-left: 50px;
+        background-color: #cccccc;
+    }
